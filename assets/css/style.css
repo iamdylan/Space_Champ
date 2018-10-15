@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+}
+
+div#background {
+    width: 100%;
+    height: 100%;
+    background-image: url('../../assets/images/background.png');
+    background-size: cover;
+    position: fixed;
+}
+
+div#hero {
+    width: 50px;
+    height: 50px;
+    background-image: url('../../assets/images/hero.png');
+    position: absolute;
+    left: 48%;
+    top: 90%; 
+}
+
+div#missiles {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+div#missiles {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+div.missile1 {
+    width: 10px;
+    height: 28px;
+    background-image: url('../../assets/images/missile1.png');
+    position: absolute;
+}
+
+div#enemies {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+div.enemy {
+    width: 50px;
+    height: 50px;
+    background-image: url('../../assets/images/enemy.png');
+    position: absolute;
+}
